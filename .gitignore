@@ -1,0 +1,44 @@
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+secrets/
+*.vault-pass
+vault_pass*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Ansible
+*.retry
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Proxmox configuration backups
+*.vma
+*.vma.zst
+pve-config-*.tgz
+
