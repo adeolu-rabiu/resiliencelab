@@ -97,7 +97,7 @@ flowchart TB
 | **Observability and AIOps** | Prometheus, Grafana, Loki, SLIs and SLOs, alerting, local LLM triage agent (Ollama, Python, FastAPI, Pydantic) |
 | **Automation** | Terraform, Ansible, PowerShell DSC, GitHub Actions, drift detection |
 | **Identity and security** | Active Directory, Entra ID and RBAC, MFA, secrets management, firewall policy, Azure Policy guardrails, Key Vault, Defender for Cloud |
-| **Network** | VRF-Lite with FRRouting, OSPF, BGP, hub-and-spoke VNet and VPC, site-to-site VPN, private DNS |
+| **Network** | VRF-Lite with FRRouting, BGP, hub-and-spoke VNet and VPC, site-to-site VPN, private DNS |
 | **Compute, data and backup** | Proxmox, Windows Server, SQL Server, Proxmox Backup Server, Restic or Borg, Tailscale, object storage with immutability (WORM) |
 | **Interoperability** | FHIR-style REST API, UK Core-aligned profiles, OAuth 2.0 and mutual TLS, audit logging |
 
@@ -163,7 +163,7 @@ flowchart LR
 
 | Phase | Focus | Release tag | Status |
 |---|---|---|---|
-| 0 | Engineering foundation: repo, CI, secret scanning, branch protection | `v0.1-foundation` | In progress |
+| 0 | Engineering foundation: repo, CI, secret scanning, branch protection | `v0.1-foundation` | Completed |
 | 1 | Discovery: CMDB, dependency map, criticality, migration options | `v0.2-discovery` | Planned |
 | 2 | Legacy baseline: AD, DNS, DHCP, GPO, SQL, synthetic clinical app, baseline metrics | `v0.3-legacy-baseline` | Planned |
 | 3 | VRF segmentation: isolated zones, default-deny policy, regression tests | `v0.4-vrf-segmentation` | Planned |
@@ -238,7 +238,7 @@ Each phase has a release tag. Check out a tag to see the repository exactly as i
 
 ## About the author
 
-**Adeolu Rabiu** is an infrastructure and cloud engineer with 16+ years across telecoms, energy, cloud engineering and education-sector IT. He holds an MSc in Operations Management (Distinction, University of Salford) and a BSc in Physics with Electronics, with AWS Cloud Practitioner, CCNA and Certified Scrum Master certifications. He has deep hands-on experience in homelab development, GitOps, observability stacks and Kubernetes.
+**Adeolu Rabiu** is an infrastructure and cloud engineer with 16+ years across Healthcare, telecoms, energy, cloud engineering and education-sector IT. He holds an MSc in Operations Management (Distinction, University of Salford) and a BSc in Physics with Electronics, with AWS Cloud Practitioner, CCNA and Certified Scrum Master certifications. He has deep hands-on experience in homelab development, GitOps, observability stacks and Kubernetes.
 
 
 ### Get in touch
